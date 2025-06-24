@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zhang Lab - Peking University Health Science Center</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <a href="#" class="logo">Zhang Lab</a>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="index-cn.html" id="langSwitch" style="font-weight:bold;">中文</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-carousel">
+            <div class="carousel-slide active" style="background-image: url('hero/1.jpg');"></div>
+            <div class="carousel-slide" style="background-image: url('hero/2.jpg');"></div>
+            <div class="carousel-slide" style="background-image: url('hero/3.jpg');"></div>
+            <div class="carousel-controls">
+                <span class="carousel-dot active" data-slide="0"></span>
+                <span class="carousel-dot" data-slide="1"></span>
+                <span class="carousel-dot" data-slide="2"></span>
+            </div>
+        </div>
+        <div class="container">
+            <h1>Welcome to Zhang Lab</h1>
+            <p>We are dedicated to developing novel fluorescent probes and their applications in biomedical imaging and detection, leveraging interdisciplinary approaches including protein engineering, artificial intelligence, optics, and biochemistry.</p>
+            <div class="affiliations">
+                <div class="affiliation">Peking University Health Science Center</div>
+                <div class="affiliation">Graduate School of Clinical Medicine</div>
+                <div class="affiliation">Department of Biomedical Engineering</div>
+                <div class="affiliation">Institute of Medical Technology</div>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <section id="research" class="container">
+            <h2>Research</h2>
+            <div class="research-grid">
+                <div class="research-card">
+                    <h3>🧠 High-Spatial-Resolution Imaging Probes</h3>
+                    <div class="research-subtitle">AI for Biology & Novel Fluorescent Probes</div>
+                    <p>We study new principles and strategies for the regulation of fluorescent probe performance, aiming to develop universal approaches for super-resolution probe design.</p>
+                </div>
+                <div class="research-card">
+                    <h3>🧬 Live-Cell Super-Resolution Imaging Probes</h3>
+                    <div class="research-subtitle">To be updated</div>
+                    <p>We develop high-temporal-resolution super-resolution imaging probes and algorithms, enabling precise localization and tracking of smaller and faster-moving targets within live cells.</p>
+                </div>
+                <div class="research-card">
+                    <h3>🔬 Optoelectronic Super-Resolution Imaging Probes</h3>
+                    <div class="research-subtitle">To be updated</div>
+                    <p>We advance super-resolution imaging probes compatible with both optical and electron microscopy, addressing challenges in correlative imaging and accurate calibration.</p>
+                </div>
+            </div>
+        </section>
+        <div style="height: 4rem;"></div>
+
+        <section id="team" class="container">
+            <h2>Team</h2>
+            <div class="team-leader-flex">
+                <img src="group_imgs/zhangmingshu.jpg" alt="Mingshu Zhang photo" class="member-photo" style="margin-bottom:0;" />
+                <div style="text-align: left;">
+                    <div class="member-name">Mingshu Zhang</div>
+                    <div class="member-role">Lab Head / Principal Investigator</div>
+                    <p style="margin-top:0.5rem;">Recipient of the National Excellent Young Scientists Fund, the first "Young Talents Lifting Project", the "Youth Innovation Promotion Association Excellent Support Program" of the Chinese Academy of Sciences, and the "Lu Jiaxi Young Talent Award". Dr. Zhang has long been devoted to the development of deep, super-resolution, and multimodal bio-optical imaging probes and labeling technologies, mechanism studies based on fluorescence imaging, as well as applications in disease diagnosis, precision classification, and drug screening.</p>
+                    <div style="margin-top:0.7rem;">
+                        <a href="https://iacm.bjmu.edu.cn/szdw/dsdw/kxbswyxgcx1/92083bcbae214841869e0b701adf267e.htm" target="_blank" style="margin-right:1.2rem;color:#3366cc;font-weight:500;">Personal Homepage</a>
+                        <a href="https://scholar.google.com/citations?hl=zh-CN&user=DNqfSV8AAAAJ" target="_blank" style="color:#3366cc;font-weight:500;">Google Scholar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="team-grid">
+                <div class="team-member">
+                    <img src="group_imgs/hebin.jpg" alt="Bin He photo" class="member-photo" />
+                    <div class="member-name">Bin He</div>
+                    <div class="member-role">PhD Student</div>
+                    <p>Focuses on the rational design and application of novel fluorescent probes.</p>
+                </div>
+                <div class="team-member">
+                    <img src="group_imgs/libin.jpg" alt="Bin Li photo" class="member-photo" />
+                    <div class="member-name">Bin Li</div>
+                    <div class="member-role">PhD Student</div>
+                    <p>Researches computational design and application of new fluorescent probes.</p>
+                </div>
+                <div class="team-member">
+                    <img src="group_imgs/lumenghao.jpg" alt="Menghao Lu photo" class="member-photo" />
+                    <div class="member-name">Menghao Lu</div>
+                    <div class="member-role">PhD Student</div>
+                    <p>Specializes in the development and application of small-molecule fluorescent probes.</p>
+                </div>
+            </div>
+        </section>
+        <div style="height: 4rem;"></div>
+
+        <section id="publications" class="container">
+            <h2>Selected Publications</h2>
+            <div class="publication">
+                <div class="publication-title">mEosEM withstands osmium staining and Epon embedding for super-resolution CLEM</div>
+                <div class="publication-authors">Fu Z#, Peng D#, <strong>Zhang M#</strong>, Xue F, Zhang R, He W, Xu T*, Xu P*</div>
+                <div class="publication-journal"><span class="journal-name">Nature Methods</span><span class="pub-year">, 2020.</span></div>
+            </div>
+            <div class="publication">
+                <div class="publication-title">Rational design of true monomeric and bright photoconvertible fluorescent proteins</div>
+                <div class="publication-authors"><strong>Zhang M#</strong>, Chang H#, Zhang Y#, Yu J, Wu L, Ji W, Chen J, Liu B, Lu J, Liu Y, Zhang J, Xu P*, Xu T*</div>
+                <div class="publication-journal"><span class="journal-name">Nature Methods</span><span class="pub-year">, 2012.</span></div>
+            </div>
+            <div class="publication">
+                <div class="publication-title">Live cell single molecule-guided Bayesian localization super resolution microscopy</div>
+                <div class="publication-authors">Xu F#, <strong>Zhang M#</strong>, He W, Han R, Xue F, Liu Z, Zhang F*, Lippincott-Schwartz J*, Xu P*</div>
+                <div class="publication-journal"><span class="journal-name">Cell Research</span><span class="pub-year">, 2017.</span></div>
+            </div>
+            <div class="publication">
+                <div class="publication-title">Fast Super-Resolution Imaging Technique and Immediate Early Nanostructure Capturing by a Photoconvertible Fluorescent Protein</div>
+                <div class="publication-authors"><strong>Zhang M#</strong>, Fu Z#, Li C#, Liu A, Peng D, Xue F, He W, Gao S, Xu F, Xu D, Yuan L, Zhang F, Xu Z, Xu T*, Xu P*</div>
+                <div class="publication-journal"><span class="journal-name">Nano Letters</span><span class="pub-year">, 2020.</span></div>
+            </div>
+            <div class="publication">
+                <div class="publication-title">Highly photostable, reversibly photoswitchable fluorescent protein with high contrast ratio for live-cell superresolution microscopy</div>
+                <div class="publication-authors"><strong>Zhang X#</strong>, Zhang M#, Li D#, He W, Peng J, Betzig E*, Xu P*</div>
+                <div class="publication-journal"><span class="journal-name">Proc Natl Acad Sci U S A</span><span class="pub-year">, 2016.</span></div>
+            </div>
+            <div class="publication">
+                <div class="publication-title">A unique series of reversibly switchable fluorescent proteins with beneficial properties for various applications.</div>
+                <div class="publication-authors">Chang H#, <strong>Zhang M#</strong>, Ji W#, Chen J, Zhang Y, Liu B, Lu J, Zhang J, Xu P*, Xu T*</div>
+                <div class="publication-journal"><span class="journal-name">Proc Natl Acad Sci U S A</span><span class="pub-year">, 2012.</span></div>
+            </div>
+            <div class="publication">
+                <div class="publication-title">SOGO-SOFI, light-modulated super-resolution optical fluctuation imaging using only 20 raw frames for high-fidelity reconstruction.</div>
+                <div class="publication-authors">Xue F#, He W#, Peng D, You H, <strong>Zhang M*</strong>, Xu P*</div>
+                <div class="publication-journal"><span class="journal-name">Fundamental Research</span><span class="pub-year">, 2023.</span></div>
+            </div>
+            <div class="publication">
+                <div class="publication-title">DETECTOR: structural information guided artifact detection for super-resolution fluorescence microscopy image. </div>
+                <div class="publication-authors">Gao S, Xu F, Li H, Xue F, <strong>Zhang M*</strong>, Xu P*, Zhang F*</div>
+                <div class="publication-journal"><span class="journal-name">Biomedical Optics Express</span><span class="pub-year">, 2021.</span></div>
+            </div>
+        </section>
+        <div style="height: 4rem;"></div>
+
+        <section id="news" class="container">
+            <h2>News</h2>
+            <div class="news-item">
+                <div class="news-date">202X Month</div>
+                <h3>Lab Recruiting First Graduate Students</h3>
+                <p>We welcome students interested in probe design and AI for Science to join the Zhang Lab!</p>
+            </div>
+            <div class="news-item">
+                <div class="news-date">202X Month</div>
+                <h3>Zhang Lab Officially Established</h3>
+                <p>The Zhang Lab was established at Peking University Health Science Center in 202X Month, dedicated to the interdisciplinary research of deep, super-resolution, and multimodal bio-optical imaging probes and labeling technologies using artificial intelligence.</p>
+            </div>
+        </section>
+        <div style="height: 4rem;"></div>
+
+        <section id="contact" class="container">
+            <h2>Contact</h2>
+            <div class="contact-info">
+                <div class="contact-card">
+                    <div class="contact-title-row"><span class="contact-icon">📍</span><h3 style="margin:0;display:inline;font-size:1.1rem;">Address</h3></div>
+                    <p>Room 411, North Building, Medical Science and Technology Building, Peking University (Xueyuan Road Campus), Haidian District, Beijing</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-title-row"><span class="contact-icon">📧</span><h3 style="margin:0;display:inline;font-size:1.1rem;">Email</h3></div>
+                    <p>mszhang@hsc.pku.edu.cn</p>
+                </div>
+                <!-- <div class="contact-card">
+                    <div class="contact-icon">📞</div>
+                    <h3>Phone</h3>
+                    <p>Office: +86 10 1234-5678<br>Lab: +86 10 1234-5679</p>
+                </div> -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Zhang Lab. All rights reserved. | Design & Development: Lab Tech Team</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scroll effect
+    </script>
+</body>
+</html>
