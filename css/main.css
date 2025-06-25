@@ -114,8 +114,8 @@ nav {
     background: rgba(255, 255, 255, 0.32);
     backdrop-filter: blur(16px) saturate(120%);
     -webkit-backdrop-filter: blur(16px) saturate(120%);
-    margin-bottom: 6rem; /* 增加与下方内容的间距 */
-    min-height: 800px;
+    margin-bottom: 1rem; /* 增加与下方内容的间距 */
+    min-height: 80px;
     overflow: hidden;
 }
 
