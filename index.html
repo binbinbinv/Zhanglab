@@ -5,12 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zhang Lab - Peking University Health Science Center</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <!-- Open Graph -->
+    <meta property="og:title" content="Zhang Lab - Peking University Health Science Center">
+    <meta property="og:description" content="Developing novel fluorescent probes and tools for biomedical imaging using AI, protein engineering, and optics.">
+    <meta property="og:image" content="hero/1.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <script defer src="js/main.js"></script>
 </head>
 <body>
     <header>
         <nav class="container">
             <a href="#" class="logo">Zhang Lab</a>
-            <div class="nav-toggle" id="navToggle">
+            <div class="nav-toggle" id="navToggle" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -28,7 +35,7 @@
     </header>
 
     <section id="home" class="hero">
-        <div class="hero-carousel">
+        <div class="hero-carousel" role="region" aria-label="Hero carousel">
             <div class="carousel-slide active" style="background-image: url('hero/1.jpg');"></div>
             <div class="carousel-slide" style="background-image: url('hero/2.jpg');"></div>
             <div class="carousel-slide" style="background-image: url('hero/3.jpg');"></div>
@@ -89,6 +96,12 @@
             </div>
             <div class="team-grid">
                 <div class="team-member">
+                    <img src="group_imgs/miaoyao.jpg" alt="Miaoyao photo" class="member-photo" />
+                    <div class="member-name">Miaoyao</div>
+                    <div class="member-role">PhD Student</div>
+                    <p>Working on probe development and imaging applications.</p>
+                </div>
+                <div class="team-member">
                     <img src="group_imgs/hebin.jpg" alt="Bin He photo" class="member-photo" />
                     <div class="member-name">Bin He</div>
                     <div class="member-role">PhD Student</div>
@@ -105,6 +118,18 @@
                     <div class="member-name">Menghao Lu</div>
                     <div class="member-role">PhD Student</div>
                     <p>Specializes in the development and application of small-molecule fluorescent probes.</p>
+                </div>
+                <div class="team-member">
+                    <img src="group_imgs/wenyuyang.jpg" alt="Yuyang Wen photo" class="member-photo" />
+                    <div class="member-name">Yuyang Wen</div>
+                    <div class="member-role">PhD Student</div>
+                    <p>Working on probe development and imaging applications.</p>
+                </div>
+                <div class="team-member">
+                    <img src="group_imgs/houxiaoyang.jpg" alt="Xiaoyang Hou photo" class="member-photo" />
+                    <div class="member-name">Xiaoyang Hou</div>
+                    <div class="member-role">PhD Student</div>
+                    <p>Focuses on computational methods and data analysis for probe design.</p>
                 </div>
             </div>
         </section>
@@ -158,14 +183,14 @@
         <section id="news" class="container">
             <h2>News</h2>
             <div class="news-item">
-                <div class="news-date">202X Month</div>
+                <div class="news-date">2023 September</div>
                 <h3>Lab Recruiting First Graduate Students</h3>
                 <p>We welcome students interested in probe design and AI for Science to join the Zhang Lab!</p>
             </div>
             <div class="news-item">
-                <div class="news-date">202X Month</div>
+                <div class="news-date">2023 May</div>
                 <h3>Zhang Lab Officially Established</h3>
-                <p>The Zhang Lab was established at Peking University Health Science Center in 202X Month, dedicated to the interdisciplinary research of deep, super-resolution, and multimodal bio-optical imaging probes and labeling technologies using artificial intelligence.</p>
+                <p>The Zhang Lab was established at Peking University Health Science Center in 2023 May, dedicated to the interdisciplinary research of deep, super-resolution, and multimodal bio-optical imaging probes and labeling technologies using artificial intelligence.</p>
             </div>
         </section>
         <div style="height: 4rem;"></div>
@@ -196,8 +221,6 @@
         </div>
     </footer>
 
-    <script>
-        // Smooth scroll effect
-    </script>
+    <!-- JS is loaded from js/main.js (deferred) -->
 </body>
 </html>
